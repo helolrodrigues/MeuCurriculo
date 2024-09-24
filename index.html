@@ -4,12 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Currículo com Bootstrap</title>
+    <title>Meu Currículo</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -29,8 +26,8 @@
               <a class="nav-link" href="#">Sobre mim</a>
             </li>
             <a class="nav-link" href="#">Cursos</a>
-            <a class="nav-link" href="#">Portifólio</a>
-            <a class="nav-link" href="#">Contato</a>
+            <a class="nav-link" href="#">Competências</a>
+            <a class="nav-link" href="#">Formulário de Contato</a>
             <li class="nav-item">
             </li>
           </ul>
@@ -44,38 +41,112 @@
    </header>
   <div class="container">
  <main>
-  <section>
-    <!-- Aqui vai um breve comentário sobre mim -->
-    <h2>Sobre mim</h2> 
-    <div class="card mb-3" style="max-width: 650px; max-height: 500px; margin: 40px; font-family: Josefin Sans", sans-serif;>
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="img/fotominha.jpeg" class="img-fluid rounded-start" alt="..."  style="max-width: 200px; min-height: 240px; ">
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h3 class="card-title">Introdução</h3>
-            <p class="card-text">Meu nome é Heloísa Lima Rodrigues, tenho 15 anos. Atualmente estudo na Etec Maria Cristina Medeiros cursando Técnico em Informática Para Internet integrado com o Ensino Médio. Moro em Ribeirão Pires, São Paulo. Estudo inglês, já tive experiência com empreendedorismo e conhecimento básico com Word e PowerPoint. Sou uma pessoa boa com prazos, organização, dentre outros tópicos. </p>
+
+ 
+  <!-- Informações gerais sobre o desenvlvimento deste Site -->
+<h3>Sobre mim</h3>
+  <div class="container">
+    <main>
+      <div class="card mb-3" style="max-width: 650px; max-height: 500px; margin: 40px; font-family: Josefin Sans", sans-serif;>
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/fotominha.jpeg" class="img-fluid rounded-start" alt="..."  style="max-width: 200px; min-height: 240px; ">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h3 class="card-title">Introdução</h3>
+              <p class="card-text">Meu nome é Heloísa Lima Rodrigues, tenho 15 anos. Atualmente estudo na Etec Maria Cristina Medeiros cursando Técnico em Informática Para Internet integrado com o Ensino Médio. Moro em Ribeirão Pires, São Paulo. Estudo inglês, já tive experiência com empreendedorismo e conhecimento básico com Word e PowerPoint. Sou uma pessoa boa com prazos, organização, dentre outros tópicos. </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section>
-    <!-- Aqui vão aparecer 4 cards mostrando os cursos -->
-    
-  </section>
-  <section>
-    <!-- Aqui vou listar as minhas principais competências socio-emocionais --> 
-    <!-- vou usar um componente chamado Accordion do Bootstrap -->
-  </section>
-  <section>
-    <!-- Aqui vai um formulário de contato -->
-  </section>
- </main>
- </div>
- <footer>
-  <!-- Informações gerais sobre o desenvlvimento deste Site -->
+    </section>
+    <section>
+      
+
+            <h3>Cursos</h3>
+
+            <div class="card border-primary mb-3" style="max-width: 19rem; margin-left: 700px; position: absolute;">
+              <div class="card-header">Inglês</div>
+              <div class="card-body text-primary">
+                <p class="card-text">Cursando inglês particular desde 2022.</p>
+              </div>
+            </div>
+            <div class="card border-secondary mb-3" style="max-width: 19rem; position: relative; margin-left: 150px;">
+              <div class="card-header"> Técnico em Informática Para Internet</div>
+              <div class="card-body text-secondary">
+                <p class="card-text">Cursando na ETEC Maria Cristina Medeiros.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section>
+
+              <p>Acesse meu Github: <a href="https://github.com/helolrodrigues"><img src="img/25231.png" alt="" class="." style="height: 50px; width: 50px;"></a></p>
+<p></p>
+<p></p>
+              <h2>Competências socioemocionais</h2>
+
+              <!-- Aqui vai as competências socioemocionais -->
+              <!-- Vou usar um componente chamado Accordion do bootstrap -->
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Prestatividade
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Sou uma pessoa prestativa, caso alguém precise de auxílio posso me esforçar para ajudar, mesmo não sendo minha função.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Organização
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Sempre organizo as tarefas que preciso realizar,não só trabalhos escolares mas também em minha casa.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      Trabalhos em Grupo
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Trabalho muito bem em grupo, consigo ter um bom diálogo com todos e me organizar perante as tarefas. </div>
+                  </div>
+                </div>
+              </div> 
+            </section>
+            <section>
+              <!-- Aqui vai um formulário de contato -->
+        <h3> Formulário de Contato</h3>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Seu e-mail :</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Sua dúvida: </label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <button type="submit" class="btn-enviar">Enviar</button>
+          </form>
+                      
+              </div>
+             <!--Minhas informações -->
+              <h4>E-mail</h4>
+              <p>heloisalimarodrigues83@gmail.com</p>
+              <h4>Telefone</h4>
+              <p>+55 (11) 96840-8368</p>
+              <h4>Endereço</h4>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.3361117332447!2d-46.39577539999999!3d-23.699688400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6d040b199a91%3A0xc96aa44d50a79fc!2sR.%20Urup%C3%AAs%2C%2083%20-%20Santa%20Luzia%2C%20Ribeir%C3%A3o%20Pires%20-%20SP%2C%2009430-110!5e0!3m2!1spt-BR!2sbr!4v1727179522633!5m2!1spt-BR!2sbr" width="470" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                
+  </div>
+  <footer>
+    <span>2024</span>
+  </footer>
 </footer> 
 <script src="js/bootstrap.js"></script>
 </body>
